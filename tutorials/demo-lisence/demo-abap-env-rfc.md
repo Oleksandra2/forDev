@@ -109,44 +109,5 @@ The mapping should now look something like this. Check that the status = `Reacha
 [DONE]
 [ACCORDION-END]
 
-[ACCORDION-BEGIN [Step 3: ](Specify the remote function modules and BAPIs)]
-Now, still in the **Cloud to On-Premise > Access Control** tab, enter the resource you need, `RFC_SYSTEM_INFO`.
-
-1. Add the resource **`RFC_SYSTEM_INFO`** by choosing the **Protocol = RFC**, then choosing **+**.
-
-    ![Image depicting step1d-new-rfc](step1d-new-rfc.png)
-
-3. Enter the name of the RFC, e.g. **`RFC_SYSTEM_INFO`**. Alternatively, add **`RFC`** as a **Prefix**. Then choose **Save**
-
-    ![Image depicting step1e-name-rfc](step1e-name-rfc.png)
-
-4. Add BAPIs to the list of resources by choosing **+** again. (You will need this BAPI in a later tutorial.)
-
-5. Enter the name **`BAPI_EPM`** as a **Prefix**, then choose **Save**.
-
-6. The list of resources should now look roughly like this:
-
-    ![Image depicting step3f-scc-destinations](step3f-scc-destinations.png)
-
-[DONE]
-[ACCORDION-END]
-
-[ACCORDION-BEGIN [Step 4: ](Open the destination service instance)]
-You will now create two destinations in the ABAP Environment. These must be created at Space level, e.g. `Dev`, not subaccount level.
-
-1. In SAP Cloud Cockpit, open your **ABAP Environment > your space, such as Dev**, then choose **Service Instances**.
-
-    ![Image depicting step2b-service-marketplace](step2b-service-marketplace.png)
-
-2. Open the destination service you created in [Create a Communication Arrangement for Outbound Communication](abap-env-create-comm-arrangement-api)
-
-    ![Image depicting step2c-destination-service-instance](step2c-destination-service-instance.png)  
-
-3. Create a new destination for the destination service instance
-
-    ![Image depicting step3a-new-destination](step3a-new-destination.png)
-
-[DONE]
-[ACCORDION-END]
 
 

@@ -49,16 +49,16 @@ Virtual tables point to data stored in another database.  Federated queries join
 
 [DONE]
 
-### Extra match rule (answer: extract-match rule)
+### Extra match rule 
    
-### Single-choice (answer: 3)
+### Single-choice
  
-### Multi-choice (answer: 1,4)
+### Multi-choice 
 
-### Long question (answer: answer with special symbols !@#$%^&*(){}_+-=~/<>|",?)
+### Long question 
 
-### One letter in the question (answer: Q)
+### One letter in the question
 
-### One digit in the question (answer: one digit in the question)
+### One digit in the question
 
 
